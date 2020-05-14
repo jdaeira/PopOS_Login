@@ -1,2 +1,2 @@
-# Pop-_OS_Login_Logo
+# Pop! OS Login Logo
 Instructions to Install Login Logo on Pop!_OS

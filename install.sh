@@ -11,5 +11,5 @@ sudo cp $DIR_FILES"/01-logo" /etc/dconf/db/gdm.d
 
 sudo dconf update
 
-
+echo "############ Pop!_OS Logo Installed ##############"
 

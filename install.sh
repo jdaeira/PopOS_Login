@@ -1,10 +1,13 @@
 #!/bin/bash
 
-DIR=$PWD"/Logos"
+DIR_LOGOS=$PWD"/Logos"
+DIR_FILES=$PWD"/Files"
 
-cd $DIR
+sudo cp $DIR_FILES"/gdm" /etc/dconf/profile
+sudo cp $DIR_LOGOS"/New_POP_white.png" /usr/share/pixmaps/logo
+sudo cp $DIR_FILES"/01-logo" /etc/dconf/db/gdm.d
 
-echo $PWD
+sudo dconf update
 
-touch Test $DIR
+
 
